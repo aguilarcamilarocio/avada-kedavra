@@ -40,15 +40,14 @@
   background-color: black;
   text-align: center;
   padding: 10px 0px 1px;
-  width: 10px;
 }
 
 .busqueda input {
+  width: 200px;
   border: 1px solid #e67bf0;
-  border-radius: .25rem;
+  border-radius: 0.25rem;
   color: black;
   background-color: white;
-  width: 30px;
 }
 
 /*-----------------principal index-----------*/
