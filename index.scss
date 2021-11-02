@@ -1,4 +1,5 @@
-/*---------------------header--------------*/
+/*----------header----------*/
+
 .titulo-principal {
     background-color: black;
     padding: 0px 0px 5px;
@@ -133,127 +134,12 @@
     font-size: 30px;
     font-family: 'Roboto Slab', serif;
     font-weight: bold;
-}
-
-.footer-index i {
-    color: #b14aff;
-    padding: 10px
-}
-/*-----------------Contacto-----------*/
-.contacto-body {
-    background-color: #e5e5f7;
-    background-image: linear-gradient(#b14aff 1.4000000000000001px, transparent 1.4000000000000001px), linear-gradient(to right, #b14aff 1.4000000000000001px, #e5e5f7 1.4000000000000001px);
-    background-size: 28px 28px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    height: 100vh;
-    width: 100%;
-
-}
-
-.header {
-    color: #d95ac5;
-    font-size: 27px;
-    padding: 10px;
-}
-
-.bigicon {
-    font-size: 35px;
-    color: #d95ac5;
-}
-
-/*------------------NOSOTRAS-------------------*/
-
-.color-fondo {
-    background-color: #ca89fc;
     
 }
 
-.sobre-nosotras {
-    font-size: 60px;
-    color: white;
-    font-family: 'Ephesis', cursive;
-    text-align: center;
-}
 
-
-.nosotras p {
-    font-size: 30px;
-    color: white;
-    font-family: 'Roboto Slab', serif;
-    text-align: center;
-}
-
-.nosotras a {
+.footer-index i {
+    color: #b14aff;
+    padding: 10px;
     text-decoration: none;
-    color: black;
-}
-
-/*------------tienda-------------------*/
-.tienda-body {
-    background-color: #e5e5f7;
-   
-  
-}
-
-.titulo-tienda {
-    background-color: white;
-    font-size: 35px;
-    color: rgb(0, 0, 0);
-    text-align: center;
-    font-family: 'Roboto Slab', serif;
-}
-.titulo-talles {
-    font-size: 30px;
-    color: rgb(0, 0, 0);
-    text-align: center;
-    font-family:Arial, Helvetica, sans-serif
-}
-.titulo-buzos {
-    font-size: 30px;
-    color: rgb(0, 0, 0);
-    text-align: center;
-    font-family:Arial, Helvetica, sans-serif
-}
-
-
-/*---------------envios---------------*/
-
-.body-envios {
-    background-color: #ca89fc;
-}
-.titulo-envio {
-    background-color: white;
-    font-size: 35px;
-    color: rgb(0, 0, 0);
-    text-align: center;
-    font-family: 'Roboto Slab', serif;
-}
-
-.envios-body img {
-width: 350px;
-padding: 10px;
-}
-
-
-.envios-body p {
-    font-size: 30px;
-    color: rgb(0, 0, 0);
-    text-align: center;
-    font-family: 'Roboto Slab', serif;
-}
-.envios-body a {
-    text-decoration: none;
-    color: white;
-}
-
-.envios-body input {
-    color: white;
-    font-size: 20px;
-    color: black;
-    font-family: 'Roboto Slab', serif;
-    border-color: #b14aff;
-    margin-left: 50px;
-   
 }
