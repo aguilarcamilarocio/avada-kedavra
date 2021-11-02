@@ -43,6 +43,7 @@
 }
 
 .busqueda input {
+  width: 200px;
   border: 1px solid #e67bf0;
   border-radius: .25rem;
   color: black;
@@ -179,7 +180,8 @@
   font-family: 'Roboto Slab', serif;
 }
 
-.formulario textarea, input {
+.formulario textarea,
+input {
   width: 100%;
   margin-bottom: 20px;
   padding: 7px;
@@ -196,12 +198,14 @@
 
 /*------------------NOSOTRAS-------------------*/
 .color-fondo {
-  background-color: #ce97f8;
+  background-image: url(./imagenes/fondo-contacto.jpg);
+  background-size: 100vw 100vh;
+  background-attachment: fixed;
 }
 
 .sobre-nosotras {
   font-size: 60px;
-  color: white;
+  color: black;
   font-family: 'Ephesis', cursive;
   text-align: center;
   padding: 30px;
@@ -209,14 +213,14 @@
 
 .nosotras p {
   font-size: 30px;
-  color: white;
+  color: black;
   font-family: 'Roboto Slab', serif;
   text-align: center;
 }
 
 .nosotras a {
   text-decoration: none;
-  color: black;
+  color: #97278e;
 }
 
 /*------------tienda-------------------*/
@@ -248,11 +252,12 @@
 
 /*---------------envios---------------*/
 .body-envios {
-  background-color: #ca89fc;
+  background-image: url(./imagenes/fondo-contacto.jpg);
+  background-size: 100vw 100vh;
+  background-attachment: fixed;
 }
 
 .titulo-envio {
-  background-color: white;
   font-size: 35px;
   color: black;
   text-align: center;
@@ -260,7 +265,7 @@
 }
 
 .envios-body img {
-  width: 350px;
+  width: 60%;
   padding: 10px;
 }
 
@@ -273,15 +278,18 @@
 
 .envios-body a {
   text-decoration: none;
-  color: white;
+  color: #d413c4;
 }
 
 .envios-body input {
-  color: white;
+  padding: 10px;
+  width: 60%;
   font-size: 20px;
   color: black;
   font-family: 'Roboto Slab', serif;
   border-color: #b14aff;
-  margin-left: 50px;
+  background-color: white;
+  margin-left: auto;
+  margin-right: auto;
 }
-/*# sourceMappingURL=estilo.css.map */
+/*# sourceMappingURL=Estilo.css.map */

@@ -45,7 +45,7 @@
 .busqueda input {
   width: 200px;
   border: 1px solid #e67bf0;
-  border-radius: 0.25rem;
+  border-radius: .25rem;
   color: black;
   background-color: white;
 }
