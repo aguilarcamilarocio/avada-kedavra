@@ -13,46 +13,55 @@
 
 
 <body class="tienda-body">
+
+
+
+
     <header>
         <div class="titulo-tienda">
             <h1>Tienda Avada Kedavra Estampas</h1>
         </div>
-        <div class="titulo-talles">
-            <p> Tabla de Talles: (Remeras) </p>
-        </div>
-
-
-        <table class="table table table-hover table-bordered border-secondary">
-            <thead>
-                <tr>
-                    <th scope=" col">S</th>
-                    <th scope="col">M</th>
-                    <th scope="col">L</th>
-                    <th scope="col">XL</th>
-                    <th scope="col">XXL</th>
-                </tr>
-            </thead>
-            <tbody>
-                <tr>
-                    <th scope="row">Ancho 46 cm</th>
-                    <td>Ancho 48 cm</td>
-                    <td>Ancho 50 cm</td>
-                    <td>Ancho 53 cm</td>
-                    <td>Ancho 57 cm</td>
-                </tr>
-                <tr>
-                    <th scope="row">Largo 66 cm</th>
-                    <td>Largo 68 cm</td>
-                    <td>Largo 70 cm</td>
-                    <td>Largo 72 cm </td>
-                    <td>Largo 74 cm </td>
-                </tr>
-
-            </tbody>
-        </table>
+          
     </header>
 
-    <select class="form-select table-bordered border-secondary" aria-label="Default select example">
+
+
+
+    <div class="titulo-talles">
+        <p> Tabla de Talles: (Remeras) </p>
+    </div>
+
+    <table class="table table table-hover table-bordered border-secondary bg-light">
+        <thead>
+            <tr>
+                <th scope=" col">S</th>
+                <th scope="col">M</th>
+                <th scope="col">L</th>
+                <th scope="col">XL</th>
+                <th scope="col">XXL</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <th scope="row">Ancho 46 cm</th>
+                <td>Ancho 48 cm</td>
+                <td>Ancho 50 cm</td>
+                <td>Ancho 53 cm</td>
+                <td>Ancho 57 cm</td>
+            </tr>
+            <tr>
+                <th scope="row">Largo 66 cm</th>
+                <td>Largo 68 cm</td>
+                <td>Largo 70 cm</td>
+                <td>Largo 72 cm </td>
+                <td>Largo 74 cm </td>
+            </tr>
+
+        </tbody>
+    </table>
+
+
+    <select class="form-select table-bordered border-secondary bg-light" aria-label="Default select example">
         <option selected>Tipo de Remera</option>
         <option value="1">Ranglan Blanca</option>
         <option value="2">Ranglan Gris</option>
@@ -63,7 +72,7 @@
 
 
 
-    <div class="row row-cols-1 row-cols-md-3 g-4">
+    <div class="row row-cols-1 row-cols-md-3 g-4 tienda-cards">
         <div class="col">
             <div class="card h-100">
                 <img src="./imagenes/imagen tienda 2.png" class="card-img-top" alt="...">
@@ -86,10 +95,6 @@
         </div>
 
 
-
-
-
-
         <div class="col">
             <div class="card h-100">
                 <img src="./imagenes/imagen tienda 3.png" class="card-img-top" alt="...">
@@ -99,6 +104,77 @@
                 </div>
             </div>
         </div>
+
+        <div class="col">
+            <div class="card h-100">
+                <img src="./imagenes/imagen tienda 10.png" class="card-img-top" alt="...">
+                <div class="card-body">
+                    <h5 class="card-title">Remera</h5>
+                    <p class="card-text"> Diseño: "Loki, variante".</p>
+                </div>
+            </div>
+        </div>
+
+        <div class="col">
+            <div class="card h-100">
+                <img src="./imagenes/imagen tienda 11.png" class="card-img-top" alt="...">
+                <div class="card-body">
+                    <h5 class="card-title">Remera</h5>
+                    <p class="card-text"> Diseño: "Escudo Hogwarts".</p>
+                </div>
+            </div>
+        </div>
+
+        <div class="col">
+            <div class="card h-100">
+                <img src="./imagenes/imagen tienda 12.png" class="card-img-top" alt="...">
+                <div class="card-body">
+                    <h5 class="card-title">Remera</h5>
+                    <p class="card-text"> Diseño: "It's FEMINIST not FemiNAZI".</p>
+                </div>
+            </div>
+        </div>
+
+    </div>
+
+    <H1 class="titulo-buzos">Tabla de talles: (Buzos)</H1>
+    <table class="table table table-hover table-bordered border-secondary bg-light">
+        <thead>
+            <tr>
+                <th scope=" col">S</th>
+                <th scope="col">M</th>
+                <th scope="col">L</th>
+                <th scope="col">XL</th>
+                <th scope="col">XXL</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <th scope="row">Ancho 56 cm</th>
+                <td>Ancho 58 cm</td>
+                <td>Ancho 59 cm</td>
+                <td>Ancho 61 cm</td>
+                <td>Ancho 53 cm</td>
+            </tr>
+            <tr>
+                <th scope="row">Largo 68 cm</th>
+                <td>Largo 70 cm</td>
+                <td>Largo 72 cm</td>
+                <td>Largo 74 cm </td>
+                <td>Largo 76 cm </td>
+            </tr>
+
+        </tbody>
+    </table>
+
+    <select class="form-select table-bordered border-secondary bg-light" aria-label="Default select example">
+        <option selected>Color de Buzo</option>
+        <option value="1">Gris Melange</option>
+        <option value="2">Celeste</option>
+        <option value="3">Rosa</option>
+    </select>
+
+    <div class="row row-cols-1 row-cols-md-3 g-4 tienda-cards">
         <div class="col">
             <div class="card h-100">
                 <img src="./imagenes/imagen tienda 4.png" class="card-img-top" alt="...">
@@ -159,45 +235,6 @@
         </div>
 
     </div>
-
-    <H1 class="titulo-buzos">Tabla de talles: (Buzos)</H1>
-    <table class="table table table-hover table-bordered border-secondary">
-        <thead>
-            <tr>
-                <th scope=" col">S</th>
-                <th scope="col">M</th>
-                <th scope="col">L</th>
-                <th scope="col">XL</th>
-                <th scope="col">XXL</th>
-            </tr>
-        </thead>
-        <tbody>
-            <tr>
-                <th scope="row">Ancho 56 cm</th>
-                <td>Ancho 58 cm</td>
-                <td>Ancho 59 cm</td>
-                <td>Ancho 61 cm</td>
-                <td>Ancho 53 cm</td>
-            </tr>
-            <tr>
-                <th scope="row">Largo 68 cm</th>
-                <td>Largo 70 cm</td>
-                <td>Largo 72 cm</td>
-                <td>Largo 74 cm </td>
-                <td>Largo 76 cm </td>
-            </tr>
-
-        </tbody>
-    </table>
-
-    <select class="form-select table-bordered border-secondary" aria-label="Default select example">
-        <option selected>Color de Buzo</option>
-        <option value="1">Gris Melange</option>
-        <option value="2">Celeste</option>
-        <option value="3">Rosa</option>
-    </select>
-
-
 
 
 

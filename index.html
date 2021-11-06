@@ -9,7 +9,7 @@
     <script src="https://kit.fontawesome.com/aca1336381.js" crossorigin="anonymous"></script>
     <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
     <link rel="stylesheet" href="./css/bootstrap.min.css">
-    <link rel="stylesheet" href="estilo.css">
+    <link rel="stylesheet" href="index.css">
 
 </head>
 
@@ -34,8 +34,7 @@
                     <div class="collapse navbar-collapse" id="navbarNav">
                         <ul class="navbar-nav">
                             <li class="nav-item">
-                                <a class="nav-link active" aria-current="page"
-                                    href="./index.html">INICIO</a>
+                                <a class="nav-link active" aria-current="page" href="./index.html">INICIO</a>
                             </li>
                             <li class="nav-item">
                                 <a class="nav-link" href="./nosotras.html">NOSOTRAS</a>
@@ -100,36 +99,25 @@
         </div>
     </div>
 
-    <div class="container">
+    <div class="container-fluid">
         <div data-aos="fade-up" data-aos-anchor-placement="center-bottom"
             class="row row-cols-xs-1 row-cols-md-3 titulos1">
             <div>
                 <p>Envios a todo el pais. <br> Comprá sin salir de tu casa.</p>
+                <img src="./imagenes/logo envio con fondo.png" alt="">
             </div>
             <div>
                 <p>Hasta 12 cuotas,<br> con todas las tarjetas.</p>
+                <img src="./imagenes/logo tarjetas.png" alt="">
             </div>
             <div">
                 <p>Compra segura. Protegemos tus datos.</p>
-            </div>
-        </div>
-    </div>
-
-    <div class="container">
-        <div data-aos="zoom-in" class="row row-cols-xs-1 row-cols-md-3 logos">
-            <div>
-                <img src="./imagenes/logo envio con fondo.jpg" alt="">
-            </div>
-            <div>
-                <img src="./imagenes/logo tarjetas.png" alt="">
-            </div>
-            <div>
                 <img src="./imagenes/compra segura.png" alt="">
-            </div>
         </div>
     </div>
+    </div>
 
-
+    
     <div class="conteiner">
         <div class="row row-cols-sm-12 row-col-md-12">
             <div data-aos="fade-up" data-aos-anchor-placement="center-bottom" class="recomendaciones">
@@ -142,16 +130,16 @@
 
     <div class="conteiner">
         <div class="row">
-            <div class="col-xs-12 col-lg-6" data-aos="fade-right">
+            <div class="col-xs-12 col-lg-6" data-aos="fade-right" style="display: flex; justify-content: center; padding: 10px;">
                 <img src="./imagenes/imagen 1.png" alt="remera 1">
             </div>
-            <div class="col-xs-12 col-lg-6" data-aos="fade-right">
+            <div class="col-xs-12 col-lg-6" data-aos="fade-right" style="display: flex; justify-content: center; padding: 10px;">
                 <img src="./imagenes/imagen 3.png" alt="remera 2">
             </div>
-            <div class="col-xs-12 col-lg-6" data-aos="fade-left">
+            <div class="col-xs-12 col-lg-6" data-aos="fade-left" style="display: flex; justify-content: center; padding: 10px;">
                 <img src="./imagenes/imagen 2.png" alt="remera 3">
             </div>
-            <div class="col-xs-12 col-lg-6" data-aos="fade-left">
+            <div class="col-xs-12 col-lg-6" data-aos="fade-left" style="display: flex; justify-content: center; padding: 10px;">
                 <img src="./imagenes/imagen 5.png" alt="remera 4">
             </div>
         </div>
@@ -177,33 +165,31 @@
 
 
     <footer class="footer-index">
-        <div class="container">
-            <div class="row">
-                <div class="col-xs-12 col-lg-6">
-                    <img src="./imagenes/avada logo.png" alt="logo-avada">
-                </div>
-
-
-                <div class="col-xs-12 col-lg-6">
-                    <p class="no-olvides">No olvides seguirnos en <br> nuestras redes sociales:</p>
-                    <div>
-                        <a href="https://www.facebook.com/AvadaKedavraEstampas/" class="facebook"><i
-                                class="fab fa-facebook fa-5x"></i>
-                            <p class="no-olvides">FACEBOOK</p>
-                        </a>
-                    </div>
-                    <div>
-                        <a href="https://www.instagram.com/avadakedavra_estampas/?hl=es" class="instagram"><i
-                                class="fab fa-instagram-square fa-5x"></i>
-                            <P class="no-olvides">INSTAGRAM</P>
-                        </a>
-                    </div>
-                </div>
+        <form action="#" method="post" name="sign up for beta form">
+            <div class="header">
+                <p>Recibí todas las ofertas</p>
             </div>
-        </div>
+            <div class="description">
+                <p>¿Quieres recibir nuestras ofertas? ¡Registrate ya mismo y comenzá a disfrutarlas!</p>
+            </div>
+            <div class="input">
+                <input type="text" class="button" id="email" name="email" placeholder="NOMBRE@EJEMPLO.COM">
+            </div>
+            <div>
+                <input type="hidden" class="button" id="submit" value="SIGN UP">
+            </div>
+        </form>
+
+
+
     </footer>
 
-
+    <section class="conteiner redes-sociales">
+        <div class="row row-cols-xs-12 row-col-md-12 ">
+            <a href="https://www.instagram.com/avadakedavra_estampas/?hl=es"><i
+                    class="fab fa-instagram-square fa-5x"> Seguinos en instagram</i> </a>
+        </div>
+    </section>
 
 
 
@@ -219,6 +205,7 @@
     <script>
         AOS.init();
     </script>
+
 
 </body>
 

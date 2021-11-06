@@ -1,3 +1,9 @@
+* {
+    padding: 0%;
+    margin: 0%;
+    box-sizing: border-box;
+}
+
 /*----------header----------*/
 
 .titulo-principal {
@@ -37,11 +43,11 @@
     color: rgb(255, 255, 255);
     background-color: black;
     text-align: center;
-    padding: 10px 0px 1px;
+    width: 100%;
+    padding: 20px 10px 10px;
 }
 
 .busqueda input {
-    width: 200px;
     border: 1px solid rgb(230, 123, 240);
     border-radius: .25rem;
     color: rgb(0, 0, 0);
@@ -52,25 +58,26 @@
 /*-----------------principal index-----------*/
 .titulos1 {
     display: flex;
-    background-color: #d95ac5;
-    color: white;
+    background-color: #ffa3f1;
+    color: rgb(0, 0, 0);
     font-size: 30px;
     font-family: 'Roboto Slab', serif;
+    width: 100%;
+    text-align: center;
+    
 }
 
-.logos {
-    display: flex;
+.titulos1 img {
+    width: 80px;
 }
 
-.logos img {
-    width: 250px;
-    margin: 20px 55px 20px;
 
-}
 
 .recomendaciones {
-    color: white;
-    background-color: #e665d2;
+    color: rgb(0, 0, 0);
+    background-color:#ffc6f6;
+    box-sizing: border-box;
+    margin-top: 20px;
 }
 
 .recomendaciones p {
@@ -87,12 +94,12 @@
 
 .index-imagenes img {
     width: 550px;
-    margin: 20px 50px 20px;
 }
 
+
 .visita-nuestra {
-    color: white;
-    background-color: #e665d2;
+    color: rgb(0, 0, 0);
+    background-color: #fcb6f1;
 }
 
 .visita-nuestra p {
@@ -121,26 +128,64 @@
     background-color: white;
     border-color: #e665d2;
     padding: 8px;
- 
+
 }
+
+
+
 /*--------------footer----------------*/
 
 .footer-index {
     background-color: #000;
-}
-
-
-.no-olvides {
-    color: white;
-    font-size: 30px;
     font-family: 'Roboto Slab', serif;
-    font-weight: bold;
-    
+    color: #FDFCFB;
+    text-align: center;
 }
 
 
-.footer-index i {
-    color: #b14aff;
-    padding: 10px;
+form {
+    width: 450px;
+    justify-content: center;
+    margin: auto;
+}
+
+
+.header {
+    font-size: 35px;
+    text-transform: uppercase;
+    letter-spacing: 5px;
+}
+
+
+.description {
+    font-size: 14px;
+    letter-spacing: 1px;
+    line-height: 1.3em;
+    margin: -2px 0 45px;
+}
+
+
+.input {
+    display: flex;
+    align-items: center;
+    padding: 10px
+}
+
+.input input {
+    width: 500px;
+    height: 40px;
+    border: none;
+}
+
+.redes-sociales a {
+    color: black;
+    display: flex;
+    justify-content: center;
     text-decoration: none;
+
+    i {
+        font-size: 40px;
+        padding: 10px;
+
+    }
 }

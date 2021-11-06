@@ -1,3 +1,10 @@
+* {
+  padding: 0%;
+  margin: 0%;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
 /*----------header----------*/
 .titulo-principal {
   background-color: black;
@@ -39,11 +46,11 @@
   color: white;
   background-color: black;
   text-align: center;
-  padding: 10px 0px 1px;
+  width: 100%;
+  padding: 20px 10px 10px;
 }
 
 .busqueda input {
-  width: 200px;
   border: 1px solid #e67bf0;
   border-radius: .25rem;
   color: black;
@@ -55,26 +62,24 @@
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  background-color: #d95ac5;
-  color: white;
+  background-color: #ffa3f1;
+  color: black;
   font-size: 30px;
   font-family: 'Roboto Slab', serif;
+  width: 100%;
+  text-align: center;
 }
 
-.logos {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-}
-
-.logos img {
-  width: 250px;
-  margin: 20px 55px 20px;
+.titulos1 img {
+  width: 80px;
 }
 
 .recomendaciones {
-  color: white;
-  background-color: #e665d2;
+  color: black;
+  background-color: #ffc6f6;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  margin-top: 20px;
 }
 
 .recomendaciones p {
@@ -96,12 +101,11 @@
 
 .index-imagenes img {
   width: 550px;
-  margin: 20px 50px 20px;
 }
 
 .visita-nuestra {
-  color: white;
-  background-color: #e665d2;
+  color: black;
+  background-color: #fcb6f1;
 }
 
 .visita-nuestra p {
@@ -139,18 +143,61 @@
 /*--------------footer----------------*/
 .footer-index {
   background-color: #000;
-}
-
-.no-olvides {
-  color: white;
-  font-size: 30px;
   font-family: 'Roboto Slab', serif;
-  font-weight: bold;
+  color: #FDFCFB;
+  text-align: center;
 }
 
-.footer-index i {
-  color: #b14aff;
+form {
+  width: 450px;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  margin: auto;
+}
+
+.header {
+  font-size: 35px;
+  text-transform: uppercase;
+  letter-spacing: 5px;
+}
+
+.description {
+  font-size: 14px;
+  letter-spacing: 1px;
+  line-height: 1.3em;
+  margin: -2px 0 45px;
+}
+
+.input {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
   padding: 10px;
+}
+
+.input input {
+  width: 500px;
+  height: 40px;
+  border: none;
+}
+
+.redes-sociales a {
+  color: black;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
   text-decoration: none;
+}
+
+.redes-sociales a i {
+  font-size: 40px;
+  padding: 10px;
 }
 /*# sourceMappingURL=index.css.map */
