@@ -62,7 +62,7 @@
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  background-color: #ffa3f1;
+  background-color: #e6e6e6;
   color: black;
   font-size: 30px;
   font-family: 'Roboto Slab', serif;
@@ -74,7 +74,7 @@
   width: 80px;
 }
 
-.recomendaciones {
+.bem__ejemplo {
   color: black;
   background-color: #ffc6f6;
   -webkit-box-sizing: border-box;
@@ -82,13 +82,19 @@
   margin-top: 20px;
 }
 
-.recomendaciones p {
+.bem__ejemplo p {
   font-size: 40px;
   font-family: 'Roboto Slab', serif;
   text-align: center;
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
+}
+
+.bem__ejemplo--tienda {
+  background-color: #f8f9fa;
+  font-size: 20px;
+  font-weight: bold;
 }
 
 .index-imagenes {
@@ -148,7 +154,7 @@
   text-align: center;
 }
 
-form {
+.footer-suscripcion {
   width: 450px;
   -webkit-box-pack: center;
       -ms-flex-pack: center;
@@ -156,20 +162,20 @@ form {
   margin: auto;
 }
 
-.header {
+.suscribete {
   font-size: 35px;
   text-transform: uppercase;
   letter-spacing: 5px;
 }
 
-.description {
+.descripcion {
   font-size: 14px;
   letter-spacing: 1px;
   line-height: 1.3em;
   margin: -2px 0 45px;
 }
 
-.input {
+.descripcion-input {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -179,7 +185,7 @@ form {
   padding: 10px;
 }
 
-.input input {
+.descripcion-input input {
   width: 500px;
   height: 40px;
   border: none;

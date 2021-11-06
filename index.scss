@@ -59,13 +59,13 @@
 /*-----------------principal index-----------*/
 .titulos1 {
     display: flex;
-    background-color: #ffa3f1;
+    background-color: #e6e6e6;
     color: rgb(0, 0, 0);
     font-size: 30px;
     font-family: 'Roboto Slab', serif;
     width: 100%;
     text-align: center;
-    
+
 }
 
 .titulos1 img {
@@ -74,19 +74,28 @@
 
 
 
-.recomendaciones {
+.bem__ejemplo {
     color: rgb(0, 0, 0);
-    background-color:#ffc6f6;
+    background-color: #ffc6f6;
     box-sizing: border-box;
     margin-top: 20px;
+
+    p {
+        font-size: 40px;
+        font-family: 'Roboto Slab', serif;
+        text-align: center;
+        justify-content: center;
+    }
+
+    &--tienda {
+        background-color: #f8f9fa;
+        font-size: 20px;
+        font-weight: bold;
+    }
 }
 
-.recomendaciones p {
-    font-size: 40px;
-    font-family: 'Roboto Slab', serif;
-    text-align: center;
-    justify-content: center;
-}
+
+
 
 .index-imagenes {
     display: flex;
@@ -144,21 +153,21 @@
 }
 
 
-form {
+.footer-suscripcion {
     width: 450px;
     justify-content: center;
     margin: auto;
 }
 
 
-.header {
+.suscribete {
     font-size: 35px;
     text-transform: uppercase;
     letter-spacing: 5px;
 }
 
 
-.description {
+.descripcion {
     font-size: 14px;
     letter-spacing: 1px;
     line-height: 1.3em;
@@ -166,13 +175,13 @@ form {
 }
 
 
-.input {
+.descripcion-input {
     display: flex;
     align-items: center;
     padding: 10px
 }
 
-.input input {
+.descripcion-input input {
     width: 500px;
     height: 40px;
     border: none;
