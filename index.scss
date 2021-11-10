@@ -34,8 +34,8 @@
 }
 
 .navbar-nav a:hover {
-    background: #000;
-    color: rgb(230, 123, 240);
+    background:#ffc6f6;
+    color: rgb(0, 0, 0);
 
 }
 
@@ -188,7 +188,7 @@
 }
 
 .redes-sociales a {
-    color: black;
+    color:rgb(230, 123, 240);
     display: flex;
     justify-content: center;
     text-decoration: none;
@@ -196,6 +196,7 @@
     i {
         font-size: 40px;
         padding: 10px;
+        font-family:'Roboto Slab', serif;
 
     }
 }

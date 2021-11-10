@@ -37,8 +37,8 @@
 }
 
 .navbar-nav a:hover {
-  background: #000;
-  color: #e67bf0;
+  background: #ffc6f6;
+  color: black;
 }
 
 .busqueda {
@@ -192,7 +192,7 @@
 }
 
 .redes-sociales a {
-  color: black;
+  color: #e67bf0;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -205,5 +205,6 @@
 .redes-sociales a i {
   font-size: 40px;
   padding: 10px;
+  font-family: 'Roboto Slab', serif;
 }
 /*# sourceMappingURL=index.css.map */
