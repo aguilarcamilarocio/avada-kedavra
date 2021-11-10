@@ -37,8 +37,8 @@
 }
 
 .navbar-nav a:hover {
-  background: #000;
-  color: #e67bf0;
+  background: #ffc6f6;
+  color: white;
 }
 
 .busqueda {
