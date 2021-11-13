@@ -34,7 +34,7 @@
 }
 
 .navbar-nav a:hover {
-    background:#ffc6f6;
+    background: #ffc6f6;
     color: rgb(255, 255, 255);
 
 }
@@ -52,8 +52,7 @@
     border: 1px solid #ffc6f6;
     border-radius: .25rem;
     color: rgb(0, 0, 0);
-    background-color: white;
-
+    background-color: white; 
 }
 
 /*-----------------principal index-----------*/
@@ -73,6 +72,21 @@
 }
 
 
+
+
+.recomendaciones {
+    color: rgb(0, 0, 0);
+    background-color: #ffc6f6;
+    box-sizing: border-box;
+    margin-top: 20px;
+
+    p {
+        font-size: 40px;
+        font-family: 'Roboto Slab', serif;
+        text-align: center;
+        justify-content: center;
+    }
+}
 
 .bem__ejemplo {
     color: rgb(0, 0, 0);
@@ -106,6 +120,50 @@
     width: 550px;
 }
 
+
+@media (max-width: 576px) {
+    .estilos-imagenes div {
+        display: flex;
+        justify-content: center;
+        padding: 10px;
+    }
+
+    img {
+        width: 100%;
+    }
+
+    .recomendaciones {
+        color: rgb(0, 0, 0);
+        background-color: #ffc6f6;
+        box-sizing: border-box;
+        margin-top: 20px;
+        width: 100%;
+
+        p {
+            font-size: 40px;
+            font-family: 'Roboto Slab', serif;
+            text-align: center;
+            justify-content: center;
+        }
+
+    }
+
+
+}
+
+@media (min-width: 992px) {
+    .estilos-imagenes div {
+        display: flex;
+        justify-content: center;
+        padding: 10px;
+
+        img {
+            width: 70%;
+        }
+
+    }
+
+}
 
 
 .visita-nuestra {
@@ -146,15 +204,15 @@
 
 /*--------------footer----------------*/
 
-.footer-index {
+.section-index {
     background-color: #000;
     font-family: 'Roboto Slab', serif;
-    color: #FDFCFB;
+    color: #000000;
     text-align: center;
 }
 
 
-.footer-suscripcion {
+.section-suscripcion {
     width: 450px;
     justify-content: center;
     margin: auto;
@@ -165,14 +223,16 @@
     font-size: 35px;
     text-transform: uppercase;
     letter-spacing: 5px;
+    color: white;
 }
 
 
 .descripcion {
-    font-size: 14px;
+    font-size: 20px;
     letter-spacing: 1px;
     line-height: 1.3em;
     margin: -2px 0 45px;
+    color: white;
 }
 
 
@@ -188,16 +248,42 @@
     border: none;
 }
 
-.redes-sociales a {
-    color:rgb(230, 123, 240);
-    display: flex;
-    justify-content: center;
-    text-decoration: none;
+.footer {
+    background: #ffc6f6;
+    color: rgb(0, 0, 0);}
 
-    i {
-        font-size: 40px;
-        padding: 10px;
-        font-family:'Roboto Slab', serif;
+    .links {
+        font-size: 20px;
 
+        ul {
+            list-style-type: none;
+        }
+
+        li a {
+            color: rgb(0, 0, 0);
+            transition: color .2s;
+
+            &:hover {
+                text-decoration: none;
+                color: #4180CB;
+            }
+        }
     }
-}
+
+    .about-company {
+        i {
+            font-size: 25px;
+        }
+
+        a {
+            color: rgb(0, 0, 0);
+        }
+    }
+
+    .direccion {
+        i {
+            font-size: 20px;
+        }
+    }
+
+    

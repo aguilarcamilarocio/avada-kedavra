@@ -74,6 +74,23 @@
   width: 80px;
 }
 
+.recomendaciones {
+  color: black;
+  background-color: #ffc6f6;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  margin-top: 20px;
+}
+
+.recomendaciones p {
+  font-size: 40px;
+  font-family: 'Roboto Slab', serif;
+  text-align: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
 .bem__ejemplo {
   color: black;
   background-color: #ffc6f6;
@@ -107,6 +124,52 @@
 
 .index-imagenes img {
   width: 550px;
+}
+
+@media (max-width: 576px) {
+  .estilos-imagenes div {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    padding: 10px;
+  }
+  img {
+    width: 100%;
+  }
+  .recomendaciones {
+    color: black;
+    background-color: #ffc6f6;
+    -webkit-box-sizing: border-box;
+            box-sizing: border-box;
+    margin-top: 20px;
+    width: 100%;
+  }
+  .recomendaciones p {
+    font-size: 40px;
+    font-family: 'Roboto Slab', serif;
+    text-align: center;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
+}
+
+@media (min-width: 992px) {
+  .estilos-imagenes div {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    padding: 10px;
+  }
+  .estilos-imagenes div img {
+    width: 70%;
+  }
 }
 
 .visita-nuestra {
@@ -147,14 +210,14 @@
 }
 
 /*--------------footer----------------*/
-.footer-index {
+.section-index {
   background-color: #000;
   font-family: 'Roboto Slab', serif;
-  color: #FDFCFB;
+  color: #000000;
   text-align: center;
 }
 
-.footer-suscripcion {
+.section-suscripcion {
   width: 450px;
   -webkit-box-pack: center;
       -ms-flex-pack: center;
@@ -166,13 +229,15 @@
   font-size: 35px;
   text-transform: uppercase;
   letter-spacing: 5px;
+  color: white;
 }
 
 .descripcion {
-  font-size: 14px;
+  font-size: 20px;
   letter-spacing: 1px;
   line-height: 1.3em;
   margin: -2px 0 45px;
+  color: white;
 }
 
 .descripcion-input {
@@ -191,25 +256,44 @@
   border: none;
 }
 
-.redes-sociales a {
-  color: #e67bf0;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-  text-decoration: none;
+.footer {
+  background: #ffc6f6;
+  color: black;
 }
 
-.redes-sociales a i {
-  font-size: 40px;
-  padding: 10px;
-  font-family: 'Roboto Slab', serif;
+.links {
+  font-size: 20px;
+}
+
+.links ul {
+  list-style-type: none;
+}
+
+.links li a {
+  color: black;
+  -webkit-transition: color .2s;
+  transition: color .2s;
+}
+
+.links li a:hover {
+  text-decoration: none;
+  color: #4180CB;
+}
+
+.about-company i {
+  font-size: 25px;
+}
+
+.about-company a {
+  color: black;
+}
+
+.direccion i {
+  font-size: 20px;
 }
 
 .body-envios {
-  background-image: url(./imagenes/fondo-contacto.jpg);
+  background-image: url(../imagenes/fondo-contacto.jpg);
   background-size: 100vw 100vh;
   background-attachment: fixed;
 }
@@ -253,9 +337,31 @@
   margin-top: auto;
 }
 
+.navbar-nav {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  width: 100%;
+}
+
+.navbar-nav a {
+  padding: 10px;
+  color: #000;
+  font-size: 16px;
+  font-family: 'Roboto Slab', serif;
+}
+
+.navbar-nav a:hover {
+  background: #ffc6f6;
+  color: white;
+}
+
 /*-----------------Contacto-----------*/
 .contacto-body {
-  background-image: url(./imagenes/fondo-contacto.jpg);
+  background-image: url(../imagenes/fondo-contacto.jpg);
   background-size: 100vw 100vh;
   background-attachment: fixed;
 }
@@ -297,7 +403,7 @@ input {
 
 /*------------------NOSOTRAS-------------------*/
 .color-fondo {
-  background-image: url(./imagenes/fondo-contacto.jpg);
+  background-image: url(../imagenes/fondo-contacto.jpg);
   background-size: 100vw 100vh;
   background-attachment: fixed;
 }
@@ -315,16 +421,55 @@ input {
   color: black;
   font-family: 'Roboto Slab', serif;
   text-align: center;
+  margin: 15px 10px 10px;
 }
 
-.nosotras a {
+.nosotras p a {
   text-decoration: none;
   color: #97278e;
 }
 
+.nosotras-dos p {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  font-size: 30px;
+  color: black;
+  font-family: 'Roboto Slab', serif;
+  text-align: center;
+  margin: 15px 10px 10px;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+@media (min-width: 992px) {
+  .nosotras-imagen img {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    width: 50%;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
+}
+
+@media (max-width: 576px) {
+  .nosotras-imagen img {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    width: 50%;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
+}
+
 /*------------tienda-------------------*/
 .tienda-body {
-  background-image: url(./imagenes/fondo-contacto.jpg);
+  background-image: url(../imagenes/fondo-contacto.jpg);
   background-size: 100vw 100vh;
   background-attachment: fixed;
 }

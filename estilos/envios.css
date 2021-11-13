@@ -1,5 +1,5 @@
 .body-envios {
-  background-image: url(./imagenes/fondo-contacto.jpg);
+  background-image: url(../imagenes/fondo-contacto.jpg);
   background-size: 100vw 100vh;
   background-attachment: fixed;
 }
@@ -41,5 +41,27 @@
   margin-left: auto;
   margin-right: auto;
   margin-top: auto;
+}
+
+.navbar-nav {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  width: 100%;
+}
+
+.navbar-nav a {
+  padding: 10px;
+  color: #000;
+  font-size: 16px;
+  font-family: 'Roboto Slab', serif;
+}
+
+.navbar-nav a:hover {
+  background: #ffc6f6;
+  color: white;
 }
 /*# sourceMappingURL=envios.css.map */

@@ -1,8 +1,9 @@
 @import "index";
 @import "envios";
+
 /*-----------------Contacto-----------*/
 .contacto-body {
-    background-image: url(./imagenes/fondo-contacto.jpg);
+    background-image: url(../imagenes/fondo-contacto.jpg);
     background-size: 100vw 100vh;
     background-attachment: fixed;
 }
@@ -46,7 +47,7 @@ input {
 /*------------------NOSOTRAS-------------------*/
 
 .color-fondo {
-    background-image: url(./imagenes/fondo-contacto.jpg);
+    background-image: url(../imagenes/fondo-contacto.jpg);
     background-size: 100vw 100vh;
     background-attachment: fixed;
 }
@@ -67,16 +68,43 @@ input {
     color: rgb(0, 0, 0);
     font-family: 'Roboto Slab', serif;
     text-align: center;
+    margin: 15px 10px 10px;
+
+    a {
+        text-decoration: none;
+        color: rgb(151, 39, 142);
+    }
 }
 
-.nosotras a {
-    text-decoration: none;
-    color: rgb(151, 39, 142);
+.nosotras-dos p {
+    display: flex;
+    font-size: 30px;
+    color: rgb(0, 0, 0);
+    font-family: 'Roboto Slab', serif;
+    text-align: center;
+    margin: 15px 10px 10px;
+    justify-content: center;
+}
+
+@media (min-width: 992px) {
+    .nosotras-imagen img {
+        display: flex;
+        width: 50%;
+        justify-content: center;
+    }
+}
+
+@media (max-width: 576px) {
+    .nosotras-imagen img {
+        display: flex;
+        width: 50%;
+        justify-content: center;
+    }
 }
 
 /*------------tienda-------------------*/
 .tienda-body {
-    background-image: url(./imagenes/fondo-contacto.jpg);
+    background-image: url(../imagenes/fondo-contacto.jpg);
     background-size: 100vw 100vh;
     background-attachment: fixed;
 
