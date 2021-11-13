@@ -61,3 +61,38 @@
     color: rgb(255, 255, 255);
 
 } 
+.footer {
+  background: #ffc6f6;
+  color: rgb(0, 0, 0);
+}
+
+.links {
+  font-size: 20px;
+
+  ul {
+      list-style-type: none;
+
+      a {
+          text-decoration: none;
+      }
+  }
+}
+
+.footer-index {
+  p {
+      color: rgb(0, 0, 0);
+      font-size: 20px;
+  }
+
+}
+
+.footer-index {
+  i {
+      color: rgb(0, 0, 0);
+      margin-left: 5px;
+  }
+}
+
+.direccion p {
+  font-size: 20px;
+}

@@ -10,15 +10,21 @@
 .titulo-principal {
     background-color: black;
     padding: 0px 0px 5px;
+
 }
 
 .titulo-principal h1 {
     padding: 10px 10px 0px;
     font-size: 35px;
-    color: rgb(255, 255, 255);
     text-align: center;
     font-family: 'Roboto Slab', serif;
+
+    a {
+        text-decoration: none;
+        color: white;
+    }
 }
+
 
 .navbar-nav {
     display: flex;
@@ -52,7 +58,7 @@
     border: 1px solid #ffc6f6;
     border-radius: .25rem;
     color: rgb(0, 0, 0);
-    background-color: white; 
+    background-color: white;
 }
 
 /*-----------------principal index-----------*/
@@ -202,7 +208,7 @@
 
 
 
-/*--------------footer----------------*/
+/*--------------section----------------*/
 
 .section-index {
     background-color: #000;
@@ -248,42 +254,41 @@
     border: none;
 }
 
+
+/*--------------footer----------------*/
+
 .footer {
     background: #ffc6f6;
-    color: rgb(0, 0, 0);}
+    color: rgb(0, 0, 0);
+}
 
-    .links {
-        font-size: 20px;
+.links {
+    font-size: 20px;
 
-        ul {
-            list-style-type: none;
-        }
-
-        li a {
-            color: rgb(0, 0, 0);
-            transition: color .2s;
-
-            &:hover {
-                text-decoration: none;
-                color: #4180CB;
-            }
-        }
-    }
-
-    .about-company {
-        i {
-            font-size: 25px;
-        }
+    ul {
+        list-style-type: none;
 
         a {
-            color: rgb(0, 0, 0);
+            text-decoration: none;
         }
     }
+}
 
-    .direccion {
-        i {
-            font-size: 20px;
-        }
+.footer-index {
+    p {
+        color: rgb(0, 0, 0);
+        font-size: 20px;
     }
 
-    
+}
+
+.footer-index {
+    i {
+        color: rgb(0, 0, 0);
+        margin-left: 5px;
+    }
+}
+
+.direccion p {
+    font-size: 20px;
+}

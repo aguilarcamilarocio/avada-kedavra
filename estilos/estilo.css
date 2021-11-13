@@ -14,9 +14,13 @@
 .titulo-principal h1 {
   padding: 10px 10px 0px;
   font-size: 35px;
-  color: white;
   text-align: center;
   font-family: 'Roboto Slab', serif;
+}
+
+.titulo-principal h1 a {
+  text-decoration: none;
+  color: white;
 }
 
 .navbar-nav {
@@ -209,7 +213,7 @@
   padding: 8px;
 }
 
-/*--------------footer----------------*/
+/*--------------section----------------*/
 .section-index {
   background-color: #000;
   font-family: 'Roboto Slab', serif;
@@ -256,6 +260,7 @@
   border: none;
 }
 
+/*--------------footer----------------*/
 .footer {
   background: #ffc6f6;
   color: black;
@@ -269,26 +274,21 @@
   list-style-type: none;
 }
 
-.links li a {
-  color: black;
-  -webkit-transition: color .2s;
-  transition: color .2s;
-}
-
-.links li a:hover {
+.links ul a {
   text-decoration: none;
-  color: #4180CB;
 }
 
-.about-company i {
-  font-size: 25px;
-}
-
-.about-company a {
+.footer-index p {
   color: black;
+  font-size: 20px;
 }
 
-.direccion i {
+.footer-index i {
+  color: black;
+  margin-left: 5px;
+}
+
+.direccion p {
   font-size: 20px;
 }
 
@@ -359,6 +359,13 @@
   color: white;
 }
 
+* {
+  padding: 0%;
+  margin: 0%;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
 /*-----------------Contacto-----------*/
 .contacto-body {
   background-image: url(../imagenes/fondo-contacto.jpg);
@@ -416,55 +423,25 @@ input {
   padding: 30px;
 }
 
+.nosotras {
+  width: 70%;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  margin-left: auto;
+  margin-right: auto;
+}
+
 .nosotras p {
   font-size: 30px;
   color: black;
   font-family: 'Roboto Slab', serif;
   text-align: center;
-  margin: 15px 10px 10px;
 }
 
 .nosotras p a {
   text-decoration: none;
   color: #97278e;
-}
-
-.nosotras-dos p {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  font-size: 30px;
-  color: black;
-  font-family: 'Roboto Slab', serif;
-  text-align: center;
-  margin: 15px 10px 10px;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-}
-
-@media (min-width: 992px) {
-  .nosotras-imagen img {
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    width: 50%;
-    -webkit-box-pack: center;
-        -ms-flex-pack: center;
-            justify-content: center;
-  }
-}
-
-@media (max-width: 576px) {
-  .nosotras-imagen img {
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    width: 50%;
-    -webkit-box-pack: center;
-        -ms-flex-pack: center;
-            justify-content: center;
-  }
 }
 
 /*------------tienda-------------------*/

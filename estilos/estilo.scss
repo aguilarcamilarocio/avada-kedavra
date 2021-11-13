@@ -1,6 +1,13 @@
 @import "index";
 @import "envios";
 
+* {
+    padding: 0%;
+    margin: 0%;
+    box-sizing: border-box;
+}
+
+
 /*-----------------Contacto-----------*/
 .contacto-body {
     background-image: url(../imagenes/fondo-contacto.jpg);
@@ -53,7 +60,6 @@ input {
 }
 
 
-
 .sobre-nosotras {
     font-size: 60px;
     color: rgb(0, 0, 0);
@@ -63,44 +69,26 @@ input {
 
 }
 
+.nosotras {
+    width: 70%;
+    justify-content: center;
+    margin-left: auto;
+    margin-right: auto;
+}
 .nosotras p {
     font-size: 30px;
     color: rgb(0, 0, 0);
     font-family: 'Roboto Slab', serif;
     text-align: center;
-    margin: 15px 10px 10px;
-
+ 
     a {
         text-decoration: none;
         color: rgb(151, 39, 142);
     }
 }
 
-.nosotras-dos p {
-    display: flex;
-    font-size: 30px;
-    color: rgb(0, 0, 0);
-    font-family: 'Roboto Slab', serif;
-    text-align: center;
-    margin: 15px 10px 10px;
-    justify-content: center;
-}
 
-@media (min-width: 992px) {
-    .nosotras-imagen img {
-        display: flex;
-        width: 50%;
-        justify-content: center;
-    }
-}
 
-@media (max-width: 576px) {
-    .nosotras-imagen img {
-        display: flex;
-        width: 50%;
-        justify-content: center;
-    }
-}
 
 /*------------tienda-------------------*/
 .tienda-body {
