@@ -74,6 +74,8 @@ input {
     justify-content: center;
     margin-left: auto;
     margin-right: auto;
+    background-color: rgba(0, 0, 0, 0.2);
+    padding: 20px;
 }
 .nosotras p {
     font-size: 30px;
@@ -100,9 +102,15 @@ input {
 }
 
 .titulo-tienda {
+    padding: 30px 30px 30px ;
     font-size: 45px;
     text-align: center;
     font-family: 'Roboto Slab', serif;
+
+    a {
+        text-decoration: none;
+        color: black;
+    }
 }
 
 

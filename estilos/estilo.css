@@ -359,6 +359,37 @@
   color: white;
 }
 
+.footer {
+  background: #ffc6f6;
+  color: black;
+}
+
+.links {
+  font-size: 20px;
+}
+
+.links ul {
+  list-style-type: none;
+}
+
+.links ul a {
+  text-decoration: none;
+}
+
+.footer-index p {
+  color: black;
+  font-size: 20px;
+}
+
+.footer-index i {
+  color: black;
+  margin-left: 5px;
+}
+
+.direccion p {
+  font-size: 20px;
+}
+
 * {
   padding: 0%;
   margin: 0%;
@@ -430,6 +461,8 @@ input {
           justify-content: center;
   margin-left: auto;
   margin-right: auto;
+  background-color: rgba(0, 0, 0, 0.2);
+  padding: 20px;
 }
 
 .nosotras p {
@@ -452,9 +485,15 @@ input {
 }
 
 .titulo-tienda {
+  padding: 30px 30px 30px;
   font-size: 45px;
   text-align: center;
   font-family: 'Roboto Slab', serif;
+}
+
+.titulo-tienda a {
+  text-decoration: none;
+  color: black;
 }
 
 .busqueda-tienda {
